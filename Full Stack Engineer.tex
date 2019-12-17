@@ -1,0 +1,136 @@
+%% The MIT License (MIT)
+%%
+%% Copyright (c) 2015 Daniil Belyakov
+%%
+%% Permission is hereby granted, free of charge, to any person obtaining a copy
+%% of this software and associated documentation files (the "Software"), to deal
+%% in the Software without restriction, including without limitation the rights
+%% to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+%% copies of the Software, and to permit persons to whom the Software is
+%% furnished to do so, subject to the following conditions:
+%%
+%% The above copyright notice and this permission notice shall be included in all
+%% copies or substantial portions of the Software.
+%%
+%% THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+%% IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+%% FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+%% AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+%% LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+%% OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+%% SOFTWARE.
+
+% The font could be set to Calibri by using the 'calibri' option
+\documentclass[calibri]{fullstack}
+
+% For hyperlinks
+\usepackage{hyperref}
+% \href{http://www.google.com}{Google} % Example link
+
+% Set applicant's personal data for header
+\name{Gabriel T. Wilkes}
+\address{gabriel@azultech.com}
+
+\contacts{(714) 758-5275}
+
+\begin{document}
+
+	% Print the header
+	\makeheader
+
+	% Print the content
+	\begin{cvsection}{Employment}
+		\begin{cvsubsection}{Full Stack Engineer}{Azul Technology}{May 2007 -- Present}
+%			San Diego, CA (2007 -- 2010) \& Saitama, Japan (2010 -- Present)
+			\begin{itemize}
+				\item \textbf{Workflow App} (2018 - 2019).
+				\begin{itemize}
+					\item Developed a new web app to fully manage a company's primary workflows including use by customers to enter data, internal status/updates/reports and for clients to enter data and monitor progress
+					\item Vue.js, Vuex, Element UI, Webpack, GraphQL, Serverless, AWS
+				\end{itemize}
+
+				\item \textbf{Job Screening Workflow App} %(2018 - 2019)
+				\begin{itemize}
+					\item Developed a new web app for use by job candidates to enter their information, the job screening company to manage their information and for clients to monitor progress
+					\item Vue.js, Vuex, Element UI, Webpack, GraphQL, Serverless, AWS
+				\end{itemize}
+
+				\item \textbf{Technology Workshops E-commerce Site} %(2013 -- 2017)
+				\begin{itemize}
+					\item Designed, created and managed e-commerce site for technology workshops and after-school clubs
+					\item Wordpress, WooCommerce, Paypal, HTML, CSS, JavaScript, Digital Ocean
+				\end{itemize}
+
+				\item \textbf{Scientific English Learning App} %(2013 -- 2015)
+				\begin{itemize}
+					\item Added student login \& dashboard, teacher login \& class management system, and save/load user data to existing web app used at Saitama University to teach scientific English vocabulary to students
+					\item HTML, CSS, Javascript, jQuery, Parse, Digital Ocean
+				\end{itemize}
+
+				\item \textbf{Bilingual Silk Dress E-commerce Site} %(2017 -- 2018)
+				\begin{itemize}
+					\item Created a high-end silk dress e-commerce site in English and Japanese
+					\item Squarespace, Ecwid, Stripe, HTML, CSS, JavaScript, jQuery
+				\end{itemize}
+
+				\item \textbf{Reading Comprehension Web App} %(2012)
+				\begin{itemize}
+					\item Implemented many requested features and improvements, such as ability to repeat assignments, completion codes, and final grading to web app designed to improve reading comprehension
+					\item HTML, CSS, Javascript, jQuery, PHP, MySQL
+				\end{itemize}
+
+				\item \textbf{Interactive Astronomy iPad Ebook} %(2012)
+				\begin{itemize}
+					\item Coded interactive feature to look around a martian surface by moving an iPad.
+					\item Created interactive quizzes at the end of each chapter
+					\item Apple Books, HTML, CSS, JavaScript
+				\end{itemize}
+
+			\end{itemize}
+		\end{cvsubsection}
+
+		\begin{cvsubsection}{Project Engineer}{Cardinal Health}{March 2005 -- May 2007}
+%			San Diego, CA
+			\begin{itemize}
+				\item Launched 4 updated medical IT products, installed at hospital test sites and trained hospital staff on usage
+				\item Collaborated  with  software  and hardware  engineers,  marketing,  quality,  and  production teams to develop new versions of medical IT products running on server, desktop and embedded versions of Windows
+			\end{itemize}
+		\end{cvsubsection}
+
+		\begin{cvsubsection}{IT/IS Specialist}{Eurogentec North America}{October 2001 -- March 2005}
+%			San Diego, CA
+			\begin{itemize}
+				\item Developed manufacturing system using MS Access and SQL Server which managed DNA synthesis data
+				\item Supported 25 lab computers, 15 office computers and 3 servers running Red Hat Linux, DOS, Windows 98, NT, NT Server, 2000, 2000 Server, and XP
+			\end{itemize}
+		\end{cvsubsection}
+
+		\begin{cvsubsection}{Web Developer}{Inetcam Corporation}{August 1999 -- June 2000}
+%			San Diego, CA
+			\begin{itemize}
+				\item Initiated several web projects including an online help system using Microsoft SQL Server and ASP
+				\item Created custom web interface to remotely control motorized cameras
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+
+	\begin{cvsection}{Education}
+		\begin{cvsubsection}{San Diego, CA}{University of California, San Diego}{Fall 1997 -- Spring 2001}
+			\begin{itemize}
+				\item B.A., Interdisciplinary Computing and the Arts
+				\item Minor in Computer Science
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+
+	\begin{cvsection}{Languages and Technologies}
+		\begin{cvsubsection}{}{}{}
+			\begin{itemize}
+				\item HTML, CSS, Javascript, jQuery, GraphQL, Vue.js, Vuex, React, Redux
+				\item Linux, Node.js, PHP, SQL, MySQL, Docker, Serverless, AWS Lambda/DyanamoDB/Cognito/AppSync
+				\item Visual Studio Code, NPM, Webpack, Babel, Git
+			\end{itemize}
+		\end{cvsubsection}
+	\end{cvsection}
+
+\end{document}
